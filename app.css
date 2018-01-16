@@ -1,0 +1,18 @@
+body {
+	background: lightgrey/*url(http://blogule.com/wp-content/uploads/2017/04/best-ideas-about-backgrounds-for-desktop-on-long-dark-room-editing-background-hd-pic-1024x644.jpg);
+	background-size: cover;*/
+}
+
+h1 {
+	color: darkcyan;
+	border: 2px solid darkcyan;
+}
+
+h4 {
+	color: #4B0082;
+	background: rgb(100,255,0);
+}
+
+li {
+	color: #22BB43;
+}
