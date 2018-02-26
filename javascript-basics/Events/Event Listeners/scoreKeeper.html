@@ -4,11 +4,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Scorekeeping App</title>
-	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		.limit {
+			color: forestgreen;
+		}
+	</style>
 </head>
 <body>
 	<h1><span id="player-1-score" class="score-span">0</span> to <span id="player-2-score" class="score-span">0</span></h1>
-	<p>Playing to: <span id="win-limit"></span></p>
+	<h3>Playing to: <span id="win-limit"></span></h3>
 	<input type="text" id="win-limit-input">
 	<span> </span>
 	<button type="button" id="player-1-increment">Player One</button>
