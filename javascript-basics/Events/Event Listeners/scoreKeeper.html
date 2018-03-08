@@ -10,16 +10,16 @@
 		}
 	</style>
 </head>
-<body>
-	<h1><span id="player-1-score" class="score-span">0</span> to <span id="player-2-score" class="score-span">0</span></h1>
+<body onload="app()">
+	<h1><span id="player-1-score" class="score-span player-1-increment">0</span> to <span id="player-2-score" class="score-span player-2-increment">0</span></h1>
 	<h3>Playing to: <span id="win-limit"></span></h3>
-	<input type="text" id="win-limit-input">
-	<span> </span>
-	<button type="button" id="player-1-increment">Player One</button>
-	<span> </span>
-	<button type="button" id="player-2-increment">Player Two</button>
-	<span> </span>
-	<button type="reset" id="reset">Reset Score</button>
+	<input type="number" id="win-limit-input">
+	<div id="clickables">
+		<button type="button" id="player-1-increment">Player One</button>
+		<button type="button" id="player-2-increment">Player Two</button>
+		<button type="reset" id="reset">Reset Score</button>
+	</div>
 	<script src="scoreKeeper.js" type="text/javascript" charset="utf-8" async defer></script>
+
 </body>
 </html>
